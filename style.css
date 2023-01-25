@@ -1,0 +1,282 @@
+html{
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+body{
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+.hello{
+    width: 100%;
+ }
+ .nav-link:hover{
+border-bottom: 2px solid  #207dff;
+ }
+
+
+ /* ================
+ medical */
+ #Service p{
+    color:gray;
+}
+/* =====================
+our service */
+#mediplus h2{
+  font-size: 50px;
+  font-weight: 900;
+}
+#mediplus{
+    margin-top: 5%;
+}
+#Medical h1{
+  
+}
+#text-center{
+  margin-top: 12%;
+ padding-right: 130px;
+  color:white;
+}
+#font-size{
+font-size: 50px;
+}
+#button-search{
+margin-left: 50%;  
+}
+#Service p{
+  color:gray;
+}
+
+/* Neurology */
+#card-body{
+ 
+  padding: 35px; 
+ }
+ #card-body h5{
+     font-size: 25px;
+     font-weight: 400;
+ }
+ #card-body p{
+    font-weight: 500;
+    color:#AFB3B6;
+    font-size: 18px;
+ }
+ #card-body i{
+     font-size: 30px;
+ }
+ #card-body:hover{
+     background-color:#207DFF;
+     color:white;
+ }
+ .container{
+  margin-top: 8%;
+}
+.inner{
+  overflow: hidden;
+} 
+ /* Our Qualified Doctors  */
+ .container{
+  margin-top: 8%;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+/* doctor-profile-st */
+.teachers-profile-card{
+  position: relative;
+  overflow: hidden;
+ }
+ .teachers-profile-card img{
+  /* transform: scale(1.0);
+  transition: all 0.5s ease-out; */
+  transition: all 1.1s ease;
+ }
+ .teachers-profile-card:hover img{
+  /* transform: scale(1.1) translate(-5px); */
+  transform: scale(1.1);
+ }
+ .teachers-profile-card:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 6vh;
+  background-color: white;
+  bottom: -60%;
+  z-index: 1;
+  transition: .5s;
+ }
+ .teachers-profile-card:hover:before{
+  bottom: 0%;
+ }
+ .teachers-profile-card img{
+  width: 100%;
+  height: auto;
+ }
+ .teachers-profile-card-text{
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  bottom: -30%;
+  color: white;
+  z-index: 2;
+  transition: 1.1s;
+ }
+ .teachers-profile-card-text a{
+  text-decoration: none;
+  font-size: 18px;
+  color: orange;
+ }
+ .teachers-profile-card:hover .teachers-profile-card-text{
+  bottom: 0px;
+ }
+ .teachers-profile-title{
+  margin-top: 20px;
+ }
+ .teachers-name{
+
+ }
+ .teachers-profile-skil{
+  letter-spacing: 0.3em;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 900;
+  font-family:monospace;
+  color: blue;
+ }
+ .teachers-profile-about{
+ font-size: 18px;
+  color: rgb(111, 118, 126);
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 3px;
+ }
+
+ /* teacher-profile-area-start */
+ .teacher-profile-area{
+  width: 60%;
+  height: 20vh;
+ }
+ .profile-div{
+  width: 40%;
+  height: 30vh;
+ }
+ 
+/* doctor-profile-end */
+/* ===========
+ */
+ .container{
+  margin-top: 8%;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+/*  */
+body{
+  overflow-x: hidden;
+}
+
+.bg-container{
+  height: 100vh;
+  background: url(./image/bg-3.jpg) no-repeat center ;
+  background-size: cover;
+
+ 
+}
+.all-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.bal{
+  padding: 0px 10%;
+  margin-right: 15%;
+}
+/*  */
+#shadow{
+  background-color:#F8F9FA;
+ height: 40vh;
+  margin: 15px;
+
+}
+#shadow i{
+font-size: 30px;
+margin-top: 20px;
+}
+#font p{
+  font-size: 18px;
+}
+#Contact h1{
+  font-size: 50px; 
+}
+.shadow{
+  box-shadow: 10px 5px 5px red;
+}
+/*  */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+
+.first-section{
+  background-image: url(image/background.jpj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.footer-pragraph{
+  color: #000 !important;
+}
+samp:hover{
+  font-size: 20px;
+  color: red !important;
+  text-decoration: underline;
+}
+.icon a{
+margin-right: 12px;
+
+}
+.icon a:hover{
+color: blue;
+}
+.decoration a{
+  text-decoration: none;
+  margin-top: 13px;
+}
+#h6 h6{
+  color: red;
+  font-size:14px;
+}
+#hover:hover{
+ color: #207DFF;
+}
+#hover{
+  margin-top: 20px;
+  color:rgb(41, 39, 39);
+  font-family: inherit;
+  font-weight: 500;
+}
+
